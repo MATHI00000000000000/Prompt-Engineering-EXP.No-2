@@ -1,13 +1,13 @@
-EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization
+# EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization
 
-AIM:
+# AIM:
 
 To evaluate and compare the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini, Claude, Copilot) in a specific task: text summarization.
 
-SCENARIO:
+# SCENARIO:
 
 You are part of a content curation team for an educational platform that delivers quick summaries of research papers to undergraduate students. Your task is to summarize a 500-word technical article on "The Basics of Blockchain Technology" using multiple AI platforms and prompting strategies.
-
+https://github.com/MATHI00000000000000/Prompt-Engineering-EXP.No-2/edit/main/README.md
 Your goal is to determine which combination of prompting technique + platform provides the best summary in terms of:
 
 1.Accuracy
@@ -20,8 +20,9 @@ Your goal is to determine which combination of prompting technique + platform pr
 
 5.User experience
 
-OUTPUT:
-Text Summarization across diAerent 
+# OUTPUT:
+
+# Text Summarization across diAerent 
 platforms 
 Blockchain technology is a decentralized, distributed, and immutable digital ledger 
 designed to record transactions across a network of computers, ensuring that records 
@@ -61,11 +62,14 @@ Evaluation Criteria:
 • User Experience (UX): Interface intuitiveness and ease of saving output. 
 Each criterion was scored on a scale from 1 (poor) to 5 (excellent). 
 Prompting Techniques Defined: 
- 1.Zero_shot prompting: 
+
+**1.Zero_shot prompting:**
+
 Prompt: 
  summarize the  text without example 
 Responses generation buy AI Tools: 
-ChatGPT: 
+
+# ChatGPT: 
 Blockchain is a decentralized, distributed, and immutable digital ledger 
 used to record transactions across a network of computers. It operates 
 through a peer-to-peer network, where all participants maintain a shared 
@@ -81,7 +85,8 @@ transactions when predefined conditions are met. The technology can
 function in public or private networks and provides a secure, transparent, 
 and auditable system for recording digital transactions without central 
 control. 
-Google Gemini: 
+
+# Google Gemini: 
 Blockchain Technology Overview 
 Blockchain is a decentralized, distributed ledger system that records data 
 across a peer-to-peer network. By removing the need for a central authority, 
@@ -101,7 +106,8 @@ everyone, and permissioned networks, which restrict access to specific
 users. Regardless of the type, the primary goal is to provide a secure, 
 auditable, and transparent method for tracking digital interactions without 
 central control. 
-Microsoft copilot: 
+
+# Microsoft copilot: 
 Blockchain is a decentralized and immutable digital ledger that records 
 transactions across a peer-to-peer network, ensuring transparency and security 
 without reliance on a central authority. Data is stored in linked blocks secured by 
@@ -110,11 +116,13 @@ validate new entries collectively, while smart contracts automate processes.
 Blockchain can be public, open to all, or private, restricted to specific participants, 
 and it provides a secure, transparent, and auditable way to manage digital 
 interactions and assets. 
- 2. Few-shot Prompting: 
+** 2. Few-shot Prompting:**
+
 Prompt: 
 •Summarize the text with giving two or three examples 
-Responses generation buy AI Tools: 
-ChatGPT: 
+Responses generation buy AI Tools:
+
+# ChatGPT: 
 Blockchain is a decentralized and secure digital ledger that records 
 transactions across a network of computers without relying on a central 
 authority. Data is stored in blocks that are connected using cryptographic 
@@ -130,7 +138,8 @@ transactions.
 products and ensure transparency in the movement of goods. 
  Financial services use blockchain to securely record and verify digital 
 transactions between institutions. 
-Google Gemini: 
+
+# Google Gemini: 
 Blockchain is a decentralized and immutable digital ledger. Instead of relying on a 
 single central authority to manage data, it uses a network of computers (nodes) 
 where every participant holds a copy of the records. This structure ensures 
@@ -152,7 +161,9 @@ automate transactions without requiring a trusted third party.
  Enterprise Supply Chains: The text cites this as a use case for private 
 (permissioned) networks, where access is restricted to specific participants 
 while still maintaining a secure, auditable record. 
-Microsoft copilot: 
+
+# Microsoft copilot: 
+
 Blockchain is a decentralized and immutable ledger that records transactions 
 across a peer-to-peer network, removing the need for a central authority. Data is 
 stored in linked blocks secured by cryptographic hashes, making tampering 
@@ -162,13 +173,16 @@ For example:
  Bitcoin uses a public blockchain with Proof of Work to secure transactions. 
  Ethereum employs smart contracts to enable decentralized applications. 
  Enterprise supply chains often use private blockchains to track goods 
-securely and transparently. 
- 3. Chain Of Thought Prompt: 
+securely and transparently.
+
+** 3. Chain Of Thought Prompt:**
+
 Prompt: 
 •Based on the above two summarization, give me the detailed summary of 
 block chain Technology. 
 Responses generation buy AI Tools: 
-ChatGPT: 
+
+# ChatGPT: 
 Blockchain technology is a decentralized, distributed, and immutable digital ledger 
 used to record and store transactions across a network of computers. Unlike 
 traditional systems that depend on a central authority, blockchain works through a 
@@ -203,7 +217,9 @@ blockchain enables secure and eAicient transaction records between institutions.
 Overall, blockchain provides a secure, transparent, and tamper-resistant system 
 for recording digital transactions and managing data without relying on a 
 centralized authority. 
-Google Gemini: 
+
+# Google Gemini: 
+
 Combining the structural principles and the practical applications from the 
 previous summaries, here is a detailed breakdown of blockchain technology as 
 described in the passage. 
@@ -234,7 +250,10 @@ Ultimately, blockchain provides a secure, transparent, and auditable framework f
 tracking assets and digital interactions. By combining cryptographic security with 
 network-wide consensus, it allows for trustless interactions where the technology 
 itself—rather than a central institution—guarantees the validity of the data. 
-Microsoft copilot: 
+
+
+# Microsoft copilot: 
+
 Core Concept 
 Blockchain is a decentralized, distributed, and immutable digital ledger that 
 records transactions across a peer-to-peer network. Unlike traditional databases 
@@ -276,12 +295,16 @@ digital interactions and assets. By eliminating central control, it enhances tru
 reduces single points of failure, and opens possibilities for innovation across 
 f
 inance, logistics, healthcare, and beyond. 
- Role-Based Prompt: 
+
+** Role-Based Prompt:**
+
 Prompt: 
 Consider you are a Researcher in the institution and now summarize the 
 passage in that role perspective. 
 Responses generation buy AI Tools: 
-ChatGPT: 
+
+# ChatGPT: 
+
 Summary from a Researcher’s Perspective 
 From a research standpoint, blockchain technology can be understood as a 
 decentralized and distributed digital ledger system that enables secure, 
@@ -311,8 +334,10 @@ domains. For example, Bitcoin uses blockchain to maintain a transparent and
 secure digital transaction ledger. Similarly, supply chain management systems 
 apply blockchain to improve traceability and accountability in product movement. 
 In financial services, blockchain supports secure and eAicient transaction 
-verification between institutions. 
-Google Gemini: 
+verification between institutions.
+
+# Google Gemini: 
+
 Research Synthesis: Architectural Integrity of Blockchain Systems 
 Decentralized Ledger Topology 
 Blockchain represents a paradigm shift from centralized data management to a 
@@ -350,12 +375,14 @@ f
 inance and supply chain management, where data privacy and restricted 
 access are prioritized without sacrificing the benefits of an auditable, 
 immutable record. 
-Conclusion 
+
+# Conclusion 
 From a research perspective, blockchain is not merely a database but a robust, 
 auditable framework for secure asset tracking. It replaces institutional trust with 
 mathematical and algorithmic certainty, providing a verifiable record of digital 
 interactions. 
-Microsoft copilot: 
+
+# Microsoft copilot: 
 Research-Oriented Summary of Blockchain Technology 
 Blockchain represents a decentralized and immutable ledger system designed to 
 record and verify transactions across distributed networks without reliance on a 
